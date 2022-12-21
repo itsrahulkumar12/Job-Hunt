@@ -14,7 +14,7 @@ fetch("data.json")
                 <div class="md:mx-4 mt-4">
                     <h5 class="text-sm font-semibold text-[#5aa9a6]">${item.company}</h5>
                     <h3 class="text-sm font-bold hover:text-[#5aa9a6] cursor-pointer">${item.jobTitle}</h3>
-                    <div class="flex justify-between text-xs font-semibold text-[#555555]">
+                    <div class="flex justify-between gap-2 text-xs font-semibold text-[#555555]">
                         <h5 class="">${item.time} <span class="ml-1">•</span></h5>
                         <h5>${item.jobType} <span class="ml-1">•</span></h5>
                         <h5>${item.country}</h5>
