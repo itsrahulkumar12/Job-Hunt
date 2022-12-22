@@ -38,4 +38,3 @@ fetch("data.json")
       main.innerHTML = output;
     });
 
-const jobObject = data.json
