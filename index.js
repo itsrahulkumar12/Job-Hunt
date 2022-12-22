@@ -1,12 +1,13 @@
-fetch("data.json")
-.then(function(response){
-    return response.json();
-})
-.then(function(data){
-    let main = document.querySelector("#main");
-    let output = "";
 
-    for (let item of data) {
+fetch("data.json")
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      let main = document.querySelector("#main");
+      let output = "";
+
+      for (let item of data) {
         output += `
         <div class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
             <div class="flex md:flex-1 items-center">
@@ -32,7 +33,9 @@ fetch("data.json")
             </div>
         </div>
             `;
-    }
+      }
 
-    main.innerHTML = output;
-})
+      main.innerHTML = output;
+    });
+
+const jobObject = data.json

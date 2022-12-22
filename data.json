@@ -15,7 +15,7 @@
         "time" : "1d ago",
         "jobType" : "Part Time",
         "country" : "Remote",
-        "skills" : ["Fullstack", "Midweight", "Python", "React"]  
+        "skills" : ["Fullstack", "Midweight", "Python", "React","Senior"]  
     },
     {
         "image" : "images/img3.png",
@@ -33,7 +33,7 @@
         "time" : "5d ago",
         "jobType" : "Contract",
         "country" : "USA only",
-        "skills" : ["Frontend", "Junior", "CSS", "JavaScript"]  
+        "skills" : ["Frontend", "Junior", "CSS", "JavaScript","Tailwind"]  
     },
     {
         "image" : "images/img5.png",
@@ -51,7 +51,7 @@
         "time" : "2w ago",
         "jobType" : "Full Time",
         "country" : "UK only",
-        "skills" : ["Backend", "Junior", "Ruby", "RoR"]  
+        "skills" : ["Backend", "Junior", "Ruby", "RoR","Python"]  
     },
     {
         "image" : "images/img7.png",
