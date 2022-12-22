@@ -29,7 +29,7 @@
         <h1 class="text-2xl md:text-4xl text-white font-bold p-5">JOB HUNT</h1>
         <h1 class="text-xl md:text-2xl text-white text-center font-semibold">Your Job Search ends here !!</h1>
         <div class="flex justify-center">
-            <input class="w-[75%] absolute bottom-[-20px] p-2 bg-[#f3fdff] rounded-sm drop-shadow-lg outline-none" type="search" placeholder="Search by skills...(eg. JavaScript)">
+            <input id="searchbar" onkeyup="searchSkill()" class="w-[75%] absolute bottom-[-20px] p-2 bg-[#f3fdff] rounded-sm drop-shadow-lg outline-none" type="search" placeholder="Search by skills...(eg. JavaScript)">
         </div>
     </div>
     <div id="buttons" class="mt-10  flex justify-center gap-5 flex-wrap mx-10">
@@ -44,7 +44,7 @@
     </div>
 
     <div id="main" class="flex flex-col items-center my-16">
-        <div class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-8">
+        <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-8">
             <div class="flex md:flex-1 items-center">
                 <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="./images/img1.png" alt="img1">
                 <div class="md:mx-4 mt-4">
