@@ -15,7 +15,7 @@
         "time" : "1d ago",
         "jobType" : "Part Time",
         "country" : "Remote",
-        "skills" : ["Fullstack", "Midweight", "Python", "React","Senior"]  
+        "skills" : ["Fullstack", "Midweight", "Python", "React","DJango"]  
     },
     {
         "image" : "images/img3.png",
@@ -78,7 +78,7 @@
         "time" : "3w ago",
         "jobType" : "Full Time",
         "country" : "Worldwide",
-        "skills" : ["Fullstack", "Midweight", "JavaScript", "DJango", "Python"]  
+        "skills" : ["Fullstack", "Backend", "JavaScript", "DJango", "Python"]  
     },
     {
         "image" : "images/img10.png",

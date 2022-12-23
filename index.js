@@ -36,9 +36,11 @@ const promiseData = fetch("data.json")
           }
     
           main.innerHTML = output;
+          
+
 
         
-
+          /*-----------------------for all job filter-------------------------*/ 
         //all job function
         const allJobs = () => {
             let main = document.querySelector("#main");
@@ -73,13 +75,22 @@ const promiseData = fetch("data.json")
           }
     
           main.innerHTML = output;
+
+          djangojobs.classList.remove("active");
+           alljobs.classList.add("active");
+           frontendjobs.classList.remove("active");
+           backendjobs.classList.remove("active");
+           fullstackjobs.classList.remove("active");
+           javascriptjobs.classList.remove("active");
+           cssjobs.classList.remove("active");
+           reactjobs.classList.remove("active");
+           pythonjobs.classList.remove("active");
+           htmljobs.classList.remove("active");
+           sassjobs.classList.remove("active");
+           rubyjobs.classList.remove("active");
     
         }
-
-        
-
-        
-                 
+         
         //   for all jobs by clicking => all filter  
         let alljobs = document.querySelector("#alljobs");
         alljobs.addEventListener("click",allJobs);   
@@ -124,6 +135,19 @@ const promiseData = fetch("data.json")
           }
     
           main.innerHTML = output;
+
+          djangojobs.classList.remove("active");
+           alljobs.classList.remove("active");
+           frontendjobs.classList.add("active");
+           backendjobs.classList.remove("active");
+           fullstackjobs.classList.remove("active");
+           javascriptjobs.classList.remove("active");
+           cssjobs.classList.remove("active");
+           reactjobs.classList.remove("active");
+           pythonjobs.classList.remove("active");
+           htmljobs.classList.remove("active");
+           sassjobs.classList.remove("active");
+           rubyjobs.classList.remove("active");
     
         }
 
@@ -171,6 +195,19 @@ const promiseData = fetch("data.json")
            }
      
            main.innerHTML = output;
+
+           djangojobs.classList.remove("active");
+           alljobs.classList.remove("active");
+           frontendjobs.classList.remove("active");
+           backendjobs.classList.add("active");
+           fullstackjobs.classList.remove("active");
+           javascriptjobs.classList.remove("active");
+           cssjobs.classList.remove("active");
+           reactjobs.classList.remove("active");
+           pythonjobs.classList.remove("active");
+           htmljobs.classList.remove("active");
+           sassjobs.classList.remove("active");
+           rubyjobs.classList.remove("active");
      
          }
  
@@ -220,6 +257,19 @@ const promiseData = fetch("data.json")
            }
      
            main.innerHTML = output;
+
+           djangojobs.classList.remove("active");
+           alljobs.classList.remove("active");
+           frontendjobs.classList.remove("active");
+           backendjobs.classList.remove("active");
+           fullstackjobs.classList.add("active");
+           javascriptjobs.classList.remove("active");
+           cssjobs.classList.remove("active");
+           reactjobs.classList.remove("active");
+           pythonjobs.classList.remove("active");
+           htmljobs.classList.remove("active");
+           sassjobs.classList.remove("active");
+           rubyjobs.classList.remove("active");
      
          }
  
@@ -268,6 +318,19 @@ const promiseData = fetch("data.json")
            }
      
            main.innerHTML = output;
+
+           djangojobs.classList.remove("active");
+           alljobs.classList.remove("active");
+           frontendjobs.classList.remove("active");
+           backendjobs.classList.remove("active");
+           fullstackjobs.classList.remove("active");
+           javascriptjobs.classList.add("active");
+           cssjobs.classList.remove("active");
+           reactjobs.classList.remove("active");
+           pythonjobs.classList.remove("active");
+           htmljobs.classList.remove("active");
+           sassjobs.classList.remove("active");
+           rubyjobs.classList.remove("active");
      
          }
  
@@ -316,6 +379,19 @@ const promiseData = fetch("data.json")
            }
      
            main.innerHTML = output;
+
+           djangojobs.classList.remove("active");
+           alljobs.classList.remove("active");
+           frontendjobs.classList.remove("active");
+           backendjobs.classList.remove("active");
+           fullstackjobs.classList.remove("active");
+           javascriptjobs.classList.remove("active");
+           cssjobs.classList.add("active");
+           reactjobs.classList.remove("active");
+           pythonjobs.classList.remove("active");
+           htmljobs.classList.remove("active");
+           sassjobs.classList.remove("active");
+           rubyjobs.classList.remove("active");
      
          }
  
@@ -364,6 +440,19 @@ const promiseData = fetch("data.json")
            }
      
            main.innerHTML = output;
+
+           djangojobs.classList.remove("active");
+           alljobs.classList.remove("active");
+           frontendjobs.classList.remove("active");
+           backendjobs.classList.remove("active");
+           fullstackjobs.classList.remove("active");
+           javascriptjobs.classList.remove("active");
+           cssjobs.classList.remove("active");
+           reactjobs.classList.add("active");
+           pythonjobs.classList.remove("active");
+           htmljobs.classList.remove("active");
+           sassjobs.classList.remove("active");
+           rubyjobs.classList.remove("active");
      
          }
  
@@ -411,6 +500,19 @@ const promiseData = fetch("data.json")
            }
      
            main.innerHTML = output;
+
+           djangojobs.classList.remove("active");
+           alljobs.classList.remove("active");
+           frontendjobs.classList.remove("active");
+           backendjobs.classList.remove("active");
+           fullstackjobs.classList.remove("active");
+           javascriptjobs.classList.remove("active");
+           cssjobs.classList.remove("active");
+           reactjobs.classList.remove("active");
+           pythonjobs.classList.add("active");
+           htmljobs.classList.remove("active");
+           sassjobs.classList.remove("active");
+           rubyjobs.classList.remove("active");
      
          }
  
@@ -458,6 +560,19 @@ const promiseData = fetch("data.json")
            }
      
            main.innerHTML = output;
+
+           djangojobs.classList.remove("active");
+           alljobs.classList.remove("active");
+           frontendjobs.classList.remove("active");
+           backendjobs.classList.remove("active");
+           fullstackjobs.classList.remove("active");
+           javascriptjobs.classList.remove("active");
+           cssjobs.classList.remove("active");
+           reactjobs.classList.remove("active");
+           pythonjobs.classList.remove("active");
+           htmljobs.classList.add("active");
+           sassjobs.classList.remove("active");
+           rubyjobs.classList.remove("active");
      
          }
  
@@ -505,6 +620,19 @@ const promiseData = fetch("data.json")
            }
      
            main.innerHTML = output;
+
+           djangojobs.classList.remove("active");
+           alljobs.classList.remove("active");
+           frontendjobs.classList.remove("active");
+           backendjobs.classList.remove("active");
+           fullstackjobs.classList.remove("active");
+           javascriptjobs.classList.remove("active");
+           cssjobs.classList.remove("active");
+           reactjobs.classList.remove("active");
+           pythonjobs.classList.remove("active");
+           htmljobs.classList.remove("active");
+           sassjobs.classList.add("active");
+           rubyjobs.classList.remove("active");
      
          }
  
@@ -552,6 +680,19 @@ const promiseData = fetch("data.json")
            }
      
            main.innerHTML = output;
+
+           djangojobs.classList.remove("active");
+           alljobs.classList.remove("active");
+           frontendjobs.classList.remove("active");
+           backendjobs.classList.remove("active");
+           fullstackjobs.classList.remove("active");
+           javascriptjobs.classList.remove("active");
+           cssjobs.classList.remove("active");
+           reactjobs.classList.remove("active");
+           pythonjobs.classList.remove("active");
+           htmljobs.classList.remove("active");
+           sassjobs.classList.remove("active");
+           rubyjobs.classList.add("active");
      
          }
  
@@ -599,6 +740,21 @@ const promiseData = fetch("data.json")
            }
      
            main.innerHTML = output;
+
+           djangojobs.classList.add("active");
+           alljobs.classList.remove("active");
+           frontendjobs.classList.remove("active");
+           backendjobs.classList.remove("active");
+           fullstackjobs.classList.remove("active");
+           javascriptjobs.classList.remove("active");
+           cssjobs.classList.remove("active");
+           reactjobs.classList.remove("active");
+           pythonjobs.classList.remove("active");
+           htmljobs.classList.remove("active");
+           sassjobs.classList.remove("active");
+           rubyjobs.classList.remove("active");
+
+           
      
          }
  
@@ -607,25 +763,14 @@ const promiseData = fetch("data.json")
          djangojobs.addEventListener("click",djangoJobs);
 
 
+         
 
 
 
-
-
-
-
-
-    
-
-    
-
-
-
-
-
-   
        return data;  
     });
+
+    
 
 
 
