@@ -5,6 +5,10 @@ const promiseData = fetch("data.json")
     })
     .then(function (data) {
 
+        window.addEventListener("load", (event) => {
+            allJobs();
+            console.log("page is fully loaded");
+          });
 
         //all job function
         const allJobs = () => {
@@ -43,10 +47,7 @@ const promiseData = fetch("data.json")
     
         }
 
-        window.addEventListener("load", (event) => {
-            allJobs();
-            console.log("page is fully loaded");
-          });
+        
 
         
                  
