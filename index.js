@@ -48,7 +48,7 @@ const promiseData = fetch("data.json")
     
           for (let item of data) {
             output += `
-            <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+            <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                 <div class="flex md:flex-1 items-center">
                     <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                     <div class="md:mx-4 mt-4">
@@ -108,7 +108,7 @@ const promiseData = fetch("data.json")
     
           for (let item of frontendData) {
             output += `
-            <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+            <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                 <div class="flex md:flex-1 items-center">
                     <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                     <div class="md:mx-4 mt-4">
@@ -168,7 +168,7 @@ const promiseData = fetch("data.json")
      
            for (let item of backendData) {
              output += `
-             <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+             <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                  <div class="flex md:flex-1 items-center">
                      <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                      <div class="md:mx-4 mt-4">
@@ -230,7 +230,7 @@ const promiseData = fetch("data.json")
      
            for (let item of fullstackData) {
              output += `
-             <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+             <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                  <div class="flex md:flex-1 items-center">
                      <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                      <div class="md:mx-4 mt-4">
@@ -291,7 +291,7 @@ const promiseData = fetch("data.json")
      
            for (let item of javascriptData) {
              output += `
-             <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+             <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                  <div class="flex md:flex-1 items-center">
                      <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                      <div class="md:mx-4 mt-4">
@@ -352,7 +352,7 @@ const promiseData = fetch("data.json")
      
            for (let item of cssData) {
              output += `
-             <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+             <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                  <div class="flex md:flex-1 items-center">
                      <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                      <div class="md:mx-4 mt-4">
@@ -413,7 +413,7 @@ const promiseData = fetch("data.json")
      
            for (let item of reactData) {
              output += `
-             <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+             <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                  <div class="flex md:flex-1 items-center">
                      <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                      <div class="md:mx-4 mt-4">
@@ -473,7 +473,7 @@ const promiseData = fetch("data.json")
      
            for (let item of pythonData) {
              output += `
-             <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+             <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                  <div class="flex md:flex-1 items-center">
                      <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                      <div class="md:mx-4 mt-4">
@@ -533,7 +533,7 @@ const promiseData = fetch("data.json")
      
            for (let item of htmlData) {
              output += `
-             <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+             <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                  <div class="flex md:flex-1 items-center">
                      <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                      <div class="md:mx-4 mt-4">
@@ -593,7 +593,7 @@ const promiseData = fetch("data.json")
      
            for (let item of sassData) {
              output += `
-             <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+             <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                  <div class="flex md:flex-1 items-center">
                      <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                      <div class="md:mx-4 mt-4">
@@ -653,7 +653,7 @@ const promiseData = fetch("data.json")
      
            for (let item of rubyData) {
              output += `
-             <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+             <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                  <div class="flex md:flex-1 items-center">
                      <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                      <div class="md:mx-4 mt-4">
@@ -713,7 +713,7 @@ const promiseData = fetch("data.json")
      
            for (let item of djangoData) {
              output += `
-             <div id="card" class="p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
+             <div id="card" class="relative p-5 max-w-[1100px] w-[75%] flex flex-col md:flex-row bg-[#f3fdff] rounded drop-shadow-lg mb-12 md:mb-8">
                  <div class="flex md:flex-1 items-center">
                      <img class="absolute top-[-25px] md:static h-12 w-12 md:h-16 md:w-16" src="${item.image}" alt="img1">
                      <div class="md:mx-4 mt-4">
