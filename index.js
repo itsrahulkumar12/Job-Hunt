@@ -43,10 +43,12 @@ const promiseData = fetch("data.json")
     
         }
 
-        // for all jobs on page load
-        window.onload = (event) => {
+        window.addEventListener("load", (event) => {
             allJobs();
-        };
+            console.log("page is fully loaded");
+          });
+
+        
                  
         //   for all jobs by clicking => all filter  
         let alljobs = document.querySelector("#alljobs");
