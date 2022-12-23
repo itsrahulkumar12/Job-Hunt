@@ -7,7 +7,7 @@
 
 ## Tech Used :
 - HTML
-- CSS
+- Tailwind CSS
 - JavaScript
 
 ***
