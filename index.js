@@ -43,10 +43,10 @@ const promiseData = fetch("data.json")
     
         }
 
-                // for all jobs on page load
-                window.onload = (event) => {
-                    allJobs();
-                  };
+        // for all jobs on page load
+        window.onload = (event) => {
+            allJobs();
+        };
                  
         //   for all jobs by clicking => all filter  
         let alljobs = document.querySelector("#alljobs");
